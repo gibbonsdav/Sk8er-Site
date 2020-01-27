@@ -1,0 +1,215 @@
+body {
+  background-image: url(Sk8er-Site/assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  grid-row-gap: 20px;
+}
+
+header {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: flex-end;
+}
+
+i {
+  font-size: xx-large;
+  border: ;
+}
+
+#menu {
+  width: 100%;
+  padding: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#menu > ul {
+  display: flex;
+  justify-content: space-between;
+}
+#menu > ul > li {
+  background-color: rgb(169, 31, 44);
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.main {
+  height: 250px;
+  width: 1000px;
+  margin: auto;
+  border: white 6px solid;
+  display: block;
+  background-repeat: no-repeat;
+  object-position: 50%;
+  background-image: url(Sk8er-Site/assets/top-image.png);
+}
+#peralta {
+}
+.tony,
+.rodney,
+.ray {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border: white 1px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: x-large;
+}
+h3 {
+  font-style: italic;
+  font-size: small;
+  color: lightgray;
+}
+h4 {
+  color: red;
+  text-align: center;
+}
+
+.threeskaters {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  margin: auto;
+  top: 40 px;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.skaters {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: space-evenly;
+  grid-template-rows: 200px 200px;
+  width: 100%;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+}
+
+.redbox {
+  background-color: red;
+  text-align: center;
+  color: white;
+  height: 100px;
+  width: 250px;
+  font-size: small;
+  position: absolute;
+  left: -325px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 0 50px 86.6px;
+  border-color: transparent transparent transparent red;
+  position: absolute;
+  left: -75px;
+}
+
+.lance,
+.rod {
+  width: 300px;
+  height: 200px;
+}
+.lance,
+.tommy,
+.rod,
+.steve {
+  border: white solid 6px;
+}
+
+.lance {
+  text-align: center;
+  background-image: url(Sk8er-Site/assets/sk8er-4.png);
+}
+
+.rod {
+  text-align: center;
+  background-image: url(Sk8er-Site/assets/sk8er-3.png);
+}
+
+.tommy {
+  text-align: center;
+  height: 400px;
+  width: 300px;
+  background-image: url(Sk8er-Site/assets/sk8er-2.png);
+}
+
+.steve {
+  text-align: center;
+  height: 200px;
+  width: 625px;
+  padding: 20px;
+  background-image: url(Sk8er-Site/assets/sk8er-1.png);
+}
+
+.boards {
+  background-color: white;
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact {
+  background-color: white;
+  height: 400px;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: gray;
+}
+
+.para {
+  width: 500px;
+}
+.form {
+  width: 500px;
+}
+
+input {
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+}
+#submit {
+  background-color: red;
+  justify-items: flex-end;
+  width: 200px;
+}
+
+#name,
+#email {
+  height: 20px;
+}
+
+#comment {
+  height: 50px;
+}
